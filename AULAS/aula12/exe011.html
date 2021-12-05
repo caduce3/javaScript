@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Verificando idade de votação.</h1>
+    Digite sua idade: <input type="number" name="idade" id="idade">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <strong>
+        <div id="d1">
+        </div>
+    </strong>
+
+    <script>
+        function verificar(){
+            var idade = window.document.querySelector(`input#idade`)
+            var d1 = window.document.querySelector(`div#d1`)
+            var res = Number(idade.value)
+            if(res < 16){
+                d1.innerHTML += `Sua idade é de ${res} anos, não pode votar.`
+            } else if(res < 18 || res > 65){
+                d1.innerHTML += `Sua idade é de ${res} anos, o voto é opcional.`
+            } else if(res >= 18){
+                d1.innerHTML += `Sua idade é de ${res}, o voto é obrigatório.`
+            }
+        }
+        
+    </script>
+</body>
+</html>

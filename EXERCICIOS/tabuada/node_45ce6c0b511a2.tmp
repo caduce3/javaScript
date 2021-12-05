@@ -1,0 +1,13 @@
+/*function calcular(){
+    let num = Number.parseFloat(window.document(`num`))
+    let res = window.document.getElementById(`res`)
+
+    for(let c=0; c<=num; c*=num){
+        res.innerHTML = `${c}`
+    }
+}
+*/
+let c = 0
+for(c=0; c<=10; c*=c){
+    console.log(`${c}`)
+}

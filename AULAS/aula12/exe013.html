@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia</title>
+</head>
+<body>
+    <h1>Verificando o dia de hoje.</h1>
+    <input type="number" name="dia" id="dia">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="d1">
+
+    </div>
+    <script>
+        function verificar(){
+            var dia = window.document.querySelector(`input#dia`)
+            var d1 = window.document.querySelector(`div#d1`)
+            var hj = Number(dia.value)
+            switch(hj){
+                case 0:
+                    d1.innerHTML += `O dia de hoje é domingo.`
+                    break
+                case 1:
+                    d1.innerHTML += `O dia de hoje é segunda`
+                    break
+                case 2:
+                    d1.innerHTML += `O dia de hoje é terça`
+                    break
+                case 3:
+                    d1.innerHTML += `O dia de hoje é quarta`
+                    break
+                case 4:
+                    d1.innerHTML += `O dia de hoje é quinta`
+                    break
+                case 5:
+                    d1.innerHTML += `O dia de hoje é sexta`
+                    break
+                case 6: 
+                    d1.innerHTML += `O dia de hoje é sábado`
+                default:
+                    d1.innerHTML += `ERRO`
+                
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+select{
+    width: 200px;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 0.8cm;
+}

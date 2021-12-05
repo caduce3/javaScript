@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Iniciando</h1>
+    <p>Resultado</p>
+    <p>la la la</p>
+    <div id="d1">clique aqui</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerHTML)
+        // p1.style.color = 'blue'  mudar a cor do p1 
+        var d = window.document.getElementById('d1')
+        d.style.background = 'blue'
+        var d = window.document.querySelector('div#d1')
+        
+    </script>
+</body>
+</html>

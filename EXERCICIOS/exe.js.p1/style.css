@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(72, 117, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    color: rgb(252, 251, 250);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    width: 500px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}

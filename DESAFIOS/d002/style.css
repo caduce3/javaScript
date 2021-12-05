@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(67, 143, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+input#bt1{
+    font-size: large;
+    border: solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+}

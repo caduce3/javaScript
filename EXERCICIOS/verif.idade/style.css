@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(35, 119, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    border: solid;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    border: solid;
+    border-radius: 5px;
+    width: 520px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+input{
+    border-radius: 5px;
+    border: solid;
+    
+}
+

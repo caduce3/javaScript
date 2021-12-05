@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(72, 142, 247);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+input{
+    border: solid 2px;
+    margin: auto;
+}
+
+section{
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border: solid 2px;
+}
+
+h1{
+    text-align: center;
+}
+
+div#d1{
+    margin-top: 10px;
+    margin: auto;
+}

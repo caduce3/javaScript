@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Verificando Nacionalidade</h1>
+    Sua nacionalidade: <input type="string" name="nacionalidade" id="nacionalidade">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="d1">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var nacionalidade = window.document.querySelector('input#nacionalidade')
+            var div1 = window.document.querySelector('div#d1')
+            var nac = String(nacionalidade.String)
+            d1.innerHTML = `Você é do ${nac} <br>`
+            if(nac == 'Brasil'){
+                d1.innerHTML += `Você é brasileiro!`
+            }else{
+                d1.innerHTML += `Você é estrangeiro!`
+            }
+        }
+    </script>
+
+</body>
+</html>

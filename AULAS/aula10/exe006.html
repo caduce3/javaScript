@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+        INTERAJA..
+    </div>
+
+    <script>
+        var d = window.document.querySelector('div#div1') //chamando por seletor
+        d.addEventListener('click', clicar) // método para clicar
+        d.addEventListener('mouseenter', entrar) // met. entrar
+        d.addEventListener('mouseout', sair) // met. sair
+
+        function clicar() {
+            d.innerHTML = 'Clicou!'
+            d.style.background = 'red'
+        }
+
+        function entrar() {
+            d.innerHTML = 'Entrou!'
+            d.style.color = 'blue'
+            d.style.background = 'green'
+        }
+
+        function sair() {
+            d.innerHTML = 'Saiu!'
+        }
+    </script>
+</body>
+</html>

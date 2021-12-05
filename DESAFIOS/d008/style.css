@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 0, 0, 0.267);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div#d1{
+    line-height: 1cm;
+}
+
+button{
+    font-size: x-large;
+    border-radius: 10px;
+    border: solid;
+}
